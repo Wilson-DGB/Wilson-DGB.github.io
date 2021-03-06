@@ -48,6 +48,9 @@ a, a:hover, a:active {
     clear: both;
 }
 
+:focus {
+    outline: none !important;
+}
 
 /* Styles
 ---------------------------------*/
@@ -377,7 +380,9 @@ text-align: left;
 	text-align: left;
 }
 	
-
+#Background .col-lg-12:hover {
+    background: #e3e3e3;
+}
 
 /* Latest Work
 ---------------------------------*/
@@ -562,7 +567,13 @@ img {
     padding-bottom: 60px;
 }
 
+.card h3:hover{
+    color:#3498db;
+}
 
+.card button:hover, .card button:focus{
+    text-decoration:none !important; 
+}
 /* Happy Clients
 ---------------------------------*/
 
