@@ -567,6 +567,9 @@ img {
     padding-bottom: 60px;
 }
 
+.card {
+    text-align: justify;
+}
 .card h3:hover{
     color:#3498db;
 }

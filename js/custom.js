@@ -115,7 +115,7 @@ $(document).ready(function() {
     }
 
     function setProjects() {
-        setColumns();
+        //setColumns();
         container.isotope();
     }
 
