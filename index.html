@@ -114,7 +114,7 @@
           <div class="service_block">
             <div class="service_icon delay-03s animated wow  zoomIn" style="background: none;"> <img src="img/boston-univ-small.gif"></div>
             <h3 class="animated fadeInUp wow">Postdoctoral Research Associate, Boston University</h3>
-            <p class="animated fadeInDown wow">2020 -- Present <br/> Developing data driven methods for applications in human immunology.  </p>
+            <p class="animated fadeInDown wow">2020 -- Present <br/> Developing data driven models for applications in human immunology.  </p>
           </div>
         </div>
         <div class="col-lg-12">
@@ -220,7 +220,8 @@
 	    </div>
 	    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#portfolio_wrapper">
 	      <div class="card-body">
-	        <p>Biochemical reaction networks are often modelled using discrete-state, continuous-time Markov chains. System statistics of these Markov chains usually cannot be calculated analytically and therefore estimates must be generated via simulation techniques. There is a well documented class of simulation techniques known as exact stochastic simulation algorithms, an example of which is Gillespie’s direct method. These algorithms often come with high computational costs, therefore approximate stochastic simulation algorithms such as the tau-leap method are used. However, in order to minimise the bias in the estimates generated using them, a relatively small value of tau is needed, rendering the computational costs comparable to Gillespie’s direct method. The multi-level Monte Carlo method (Anderson and Higham, Multiscale Model. Simul. 10:146–179, 2012) provides a reduction in computational costs whilst minimising or even eliminating the bias in the estimates of system statistics. This is achieved by first crudely approximating required statistics with many sample paths of low accuracy. Then correction terms are added until a required level of accuracy is reached. Recent literature has primarily focussed on implementing the multi-level method efficiently to estimate a single system statistic. However, it is clearly also of interest to be able to approximate entire probability distributions of species counts. We present two novel methods that combine known techniques for distribution reconstruction with the multi-level method. We demonstrate the potential of our methods using a number of examples.</p>
+          <img src="img/paperfig_multilevel.jpg" style="width: 400px; float: left; padding-right: 10px; padding-bottom: 10px;"> 
+	        <p><b>Abstract:</b> Biochemical reaction networks are often modelled using discrete-state, continuous-time Markov chains. System statistics of these Markov chains usually cannot be calculated analytically and therefore estimates must be generated via simulation techniques. There is a well documented class of simulation techniques known as exact stochastic simulation algorithms, an example of which is Gillespie’s direct method. These algorithms often come with high computational costs, therefore approximate stochastic simulation algorithms such as the tau-leap method are used. However, in order to minimise the bias in the estimates generated using them, a relatively small value of tau is needed, rendering the computational costs comparable to Gillespie’s direct method. The multi-level Monte Carlo method (Anderson and Higham, Multiscale Model. Simul. 10:146–179, 2012) provides a reduction in computational costs whilst minimising or even eliminating the bias in the estimates of system statistics. This is achieved by first crudely approximating required statistics with many sample paths of low accuracy. Then correction terms are added until a required level of accuracy is reached. Recent literature has primarily focussed on implementing the multi-level method efficiently to estimate a single system statistic. However, it is clearly also of interest to be able to approximate entire probability distributions of species counts. We present two novel methods that combine known techniques for distribution reconstruction with the multi-level method. We demonstrate the potential of our methods using a number of examples.</p>
 	      </div>
 	    </div>
 	  </div>
@@ -230,14 +231,14 @@
 	    <div class="card-header" id="heading1">
 	      <h5 class="mb-0">
 	        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-				<h3>Scalable population-level modeling of biological cells incorporating mechanics and kinetics in continuous time</h3>	        </button>
+				<h3>Scalable population-level modeling of biological cells incorporating mechanics and kinetics in continuous time </h3>	        </button>
 	      </h5>
 	    </div>
 
 	    <div id="collapse1" class="collapse " aria-labelledby="heading1" data-parent="#portfolio_wrapper">
-	      <div class="card-body"><!-- 
-	      	<img src="img/about-img.jpg" style="float: left; padding-right: 10px;"> -->
-	        <p>The processes taking place inside the living cell are now 
+	      <div class="card-body">
+	      	<img src="img/paperfig_Scalable.jpg" style="width: 300px; float: left; padding-right: 10px;"> 
+	        <p> <b>Abstract:</b> The processes taking place inside the living cell are now 
           understood to the point where predictive computational
     			models can be used to gain detailed understanding of
     			important biological phenomena. A key challenge is to
@@ -257,6 +258,10 @@
     			is also very flexible and may straightforwardly be coupled with
     			continuous-time descriptions of biochemical signalling within,
     			and between, individual cells.</p>
+          <br> </br>  
+          <p> <b> Authors:</b> S. Engblom, <b> D. B. Wilson</b> and R. E. Baker</p>
+          <a href="https://royalsocietypublishing.org/doi/10.1098/rsos.180379#d3e513">Link to article </a>
+
 	      </div>
 	    </div>
 	  </div>
@@ -271,7 +276,7 @@
 	    </div>
 	    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#portfolio_wrapper">
 	      <div class="card-body">
-	        <p>Complex biological and physical transport processes are often described through systems of interacting particles. The effect of excluded volume on these transport processes has been well studied; however, the interplay between volume exclusion and reactions between heterogenous particles is less well studied. In this paper we develop a framework for modeling reaction-diffusion processes which directly incorporates volume exclusion. We consider simple reactions (unimolecular and bimolecular) that conserve the total number of particles. From an off-lattice microscopic individual-based model we use the Fokker-Planck equation and the method of matched asymptotic expansions to derive a low-dimensional macroscopic system of nonlinear partial differential equations describing the evolution of the particles. A biologically motivated, hybrid model of chemotaxis with volume exclusion is explored, where reactions occur at rates dependent upon the chemotactic environment. Further, we show that for reactions that require particle contact the appropriate reaction term in the macroscopic model is of lower order in the asymptotic expansion than the nonlinear diffusion term. However, we find that the next reaction term in the expansion is needed to ensure good agreement with simulations of the microscopic model. Our macroscopic model allows for more direct parametrization to experimental data than existing models.</p>
+	        <p><b>Abstract:</b> Complex biological and physical transport processes are often described through systems of interacting particles. The effect of excluded volume on these transport processes has been well studied; however, the interplay between volume exclusion and reactions between heterogenous particles is less well studied. In this paper we develop a framework for modeling reaction-diffusion processes which directly incorporates volume exclusion. We consider simple reactions (unimolecular and bimolecular) that conserve the total number of particles. From an off-lattice microscopic individual-based model we use the Fokker-Planck equation and the method of matched asymptotic expansions to derive a low-dimensional macroscopic system of nonlinear partial differential equations describing the evolution of the particles. A biologically motivated, hybrid model of chemotaxis with volume exclusion is explored, where reactions occur at rates dependent upon the chemotactic environment. Further, we show that for reactions that require particle contact the appropriate reaction term in the macroscopic model is of lower order in the asymptotic expansion than the nonlinear diffusion term. However, we find that the next reaction term in the expansion is needed to ensure good agreement with simulations of the microscopic model. Our macroscopic model allows for more direct parametrization to experimental data than existing models.</p>
 	      </div>
 	    </div>
 	  </div>
@@ -286,7 +291,8 @@
 	    </div>
 	    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#portfolio_wrapper">
 	      <div class="card-body">
-	        <p>This work investigates multi-resolution methodologies for simulating dimer
+        <img src="img/paperfig_Dimers.jpg" style="width: 300px; float: left; padding-right: 10px;"> 
+	        <p><b> Abstract: </b>This work investigates multi-resolution methodologies for simulating dimer
 models. The solvent particles which make up the heat bath interact with the
 monomers of the dimer either through direct collisions (short-range) or through
 harmonic springs (long-range). Two types ofmulti-resolution methodologies are
@@ -296,6 +302,9 @@ model with different level of resolution. These methodologies are then used to
 investigate the effect of a shared heat bath versus two uncoupled heat baths,
 one foreachmonomer. Furthermore, the validity of themulti-resolutionmethods
 is discussed by comparison to dynamics of macroscopic Langevin equations.</p>
+<br> </br>
+<p> <b>Authors: </b> R. Gunaratne, <b>D. B. Wilson</b>, M. Flegg, R. Erban </p>
+
 	      </div>
 	    </div>
 	  </div>
@@ -310,7 +319,8 @@ is discussed by comparison to dynamics of macroscopic Langevin equations.</p>
 	    </div>
 	    <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#portfolio_wrapper">
 	      <div class="card-body">
-	       <p>A random search process in a networked environment is governed by the time it takes to visit every node, termed the cover time. Often, a networked process does not proceed in isolation but competes with many instances of itself within the same environment. A key unanswered question is how to optimize this process: How many concurrent searchers can a topology support before the benefits of parallelism are outweighed by competition for space? Here, we introduce the searcher-averaged parallel cover time (APCT) to quantify these economies of scale. We show that the APCT of the networked symmetric exclusion process is optimized at a searcher density that is well predicted by the spectral gap. Furthermore, we find that nonequilibrium processes, realized through the addition of bias, can support significantly increased density optima. Our results suggest alternative hybrid strategies of serial and parallel search for efficient information gathering in social interaction and biological transport networks. </p>
+        <img src="img/paperfig_SearchProcess.jpg" style="width: 300px; float: right; padding-left: 10px;"> 
+	       <p><b>Abstract:</b> A random search process in a networked environment is governed by the time it takes to visit every node, termed the cover time. Often, a networked process does not proceed in isolation but competes with many instances of itself within the same environment. A key unanswered question is how to optimize this process: How many concurrent searchers can a topology support before the benefits of parallelism are outweighed by competition for space? Here, we introduce the searcher-averaged parallel cover time (APCT) to quantify these economies of scale. We show that the APCT of the networked symmetric exclusion process is optimized at a searcher density that is well predicted by the spectral gap. Furthermore, we find that nonequilibrium processes, realized through the addition of bias, can support significantly increased density optima. Our results suggest alternative hybrid strategies of serial and parallel search for efficient information gathering in social interaction and biological transport networks. </p>
 	      </div>
 	    </div>
 	  </div>
@@ -325,7 +335,7 @@ is discussed by comparison to dynamics of macroscopic Langevin equations.</p>
 	    </div>
 	    <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#portfolio_wrapper">
 	      <div class="card-body">
-	       <p>Consider a particle whose position evolves along the edges of a network. One definition for the displacement of a particle is the length of the shortest path on the network between the current and initial positions of the particle. Such a definition fails to incorporate information of the actual path the particle traversed. In this work we consider another definition for the displacement of a particle on networked topologies. Using this definition, which we term the winding distance, we demonstrate that for Brownian particles, confinement to a network can induce a transition in the mean squared displacement from diffusive to ballistic behavior, $\langle x^2(t) \rangle \propto t^2$ for long times. A multiple scales approach is used to derive a macroscopic evolution equation for the displacement of a particle and uncover a topological condition for whether this transition in the mean squared displacement will occur. Furthermore, for networks satisfying this topological condition, we identify a prediction of the timescale upon which the displacement transitions to long-time behavior. Finally, we extend the investigation of displacement on networks to a class of anomalously diffusive transport processes, where we find that the mean squared displacement at long times is affected by both network topology and the character of the transport process.</p>
+	       <p><b>Abstract:</b> Consider a particle whose position evolves along the edges of a network. One definition for the displacement of a particle is the length of the shortest path on the network between the current and initial positions of the particle. Such a definition fails to incorporate information of the actual path the particle traversed. In this work we consider another definition for the displacement of a particle on networked topologies. Using this definition, which we term the winding distance, we demonstrate that for Brownian particles, confinement to a network can induce a transition in the mean squared displacement from diffusive to ballistic behavior, $\langle x^2(t) \rangle \propto t^2$ for long times. A multiple scales approach is used to derive a macroscopic evolution equation for the displacement of a particle and uncover a topological condition for whether this transition in the mean squared displacement will occur. Furthermore, for networks satisfying this topological condition, we identify a prediction of the timescale upon which the displacement transitions to long-time behavior. Finally, we extend the investigation of displacement on networks to a class of anomalously diffusive transport processes, where we find that the mean squared displacement at long times is affected by both network topology and the character of the transport process.</p>
 	      </div>
 	    </div>
 	  </div>
@@ -340,7 +350,7 @@ is discussed by comparison to dynamics of macroscopic Langevin equations.</p>
 	    </div>
 	    <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#portfolio_wrapper">
 	      <div class="card-body">
-	       <p>Transport phenomena within crowded, complex environments is observed at many spatial and temporal scales, from pedestrian traffic in cities and buildings to macromolecular motion within cells and ion exchange in batteries. Geometric restrictions in an environment can hinder the motion of individuals and, combined with crowding between the individuals, can have drastic effects on global transport behaviour. However, in general, the interplay between crowding and geometry is poorly understood. Existing techniques to predict the behaviour of crowded transport processes approximate complex environments as high-dimensional meshes and use computationally expensive models that lack the ability to reveal the functional influence of geometry and crowding on transport. Here, we employ networked representations of complex environments and provide an efficient, foundational framework within which the combined roles of geometry and crowding can be explored. Multiple models of crowded, networked transport are derived that are capable of extracting detailed information at both the level of the whole population or an individual within it. A combination of theoretical and numerical analysis identifies critical topological features of environments that enable accurate prediction of temporal and spatial transport statistics, as well as insight into the design of optimal networks. Our approach is applicable to transport processes across a broad range of scientific disciplines, bypasses traditional computational challenges of discretisation, and establishes a unified connection between geometry, crowding and transport.</p>
+	       <p><b>Abstract:</b> Transport phenomena within crowded, complex environments is observed at many spatial and temporal scales, from pedestrian traffic in cities and buildings to macromolecular motion within cells and ion exchange in batteries. Geometric restrictions in an environment can hinder the motion of individuals and, combined with crowding between the individuals, can have drastic effects on global transport behaviour. However, in general, the interplay between crowding and geometry is poorly understood. Existing techniques to predict the behaviour of crowded transport processes approximate complex environments as high-dimensional meshes and use computationally expensive models that lack the ability to reveal the functional influence of geometry and crowding on transport. Here, we employ networked representations of complex environments and provide an efficient, foundational framework within which the combined roles of geometry and crowding can be explored. Multiple models of crowded, networked transport are derived that are capable of extracting detailed information at both the level of the whole population or an individual within it. A combination of theoretical and numerical analysis identifies critical topological features of environments that enable accurate prediction of temporal and spatial transport statistics, as well as insight into the design of optimal networks. Our approach is applicable to transport processes across a broad range of scientific disciplines, bypasses traditional computational challenges of discretisation, and establishes a unified connection between geometry, crowding and transport.</p>
 	      </div>
 	    </div>
 	  </div>
@@ -354,7 +364,7 @@ is discussed by comparison to dynamics of macroscopic Langevin equations.</p>
 	    </div>
 	    <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#portfolio_wrapper">
 	      <div class="card-body">
-	       <p>T cells use their T cell receptors (TCRs) to discriminate between peptide MHC (pMHC) ligands that bind with different affinities but precisely how different remains controversial. This is partly because the affinities of physiologically relevant interactions are often too weak to measure. Here, we introduce a surface plasmon resonance protocol to measure ultra-low TCR/pMHC affinities (KD~1000μM). Using naïve, memory, and blasted human CD8+ T cells we find that their discrimination power is unexpectedly low, in that they require a large >100-fold decrease in affinity to abolish responses. Interestingly, the discrimination power reduces further when antigen is presented in isolation on artificial surfaces but can be partially restored by adding ligands to CD2 or LFA-1. We were able to fit the kinetic proof-reading model to our data, yielding the first estimates for both the time delay (2.8 s) and number of biochemical steps (2.67). The fractional number of steps suggest that one of the proof-reading steps is not easily reversible.</p>
+	       <p><b>Abstract:</b> T cells use their T cell receptors (TCRs) to discriminate between peptide MHC (pMHC) ligands that bind with different affinities but precisely how different remains controversial. This is partly because the affinities of physiologically relevant interactions are often too weak to measure. Here, we introduce a surface plasmon resonance protocol to measure ultra-low TCR/pMHC affinities (KD~1000μM). Using naïve, memory, and blasted human CD8+ T cells we find that their discrimination power is unexpectedly low, in that they require a large >100-fold decrease in affinity to abolish responses. Interestingly, the discrimination power reduces further when antigen is presented in isolation on artificial surfaces but can be partially restored by adding ligands to CD2 or LFA-1. We were able to fit the kinetic proof-reading model to our data, yielding the first estimates for both the time delay (2.8 s) and number of biochemical steps (2.67). The fractional number of steps suggest that one of the proof-reading steps is not easily reversible.</p>
 	      </div>
 	    </div>
 	  </div>
@@ -368,7 +378,7 @@ is discussed by comparison to dynamics of macroscopic Langevin equations.</p>
 	    </div>
 	    <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#portfolio_wrapper">
 	      <div class="card-body">
-	       <p>T cells use their T-cell receptors (TCRs) to discriminate between lower-affinity self and higher-affinity non-self pMHC antigens. The strength of this discrimination and the mechanisms that produce it remain controversial. Although a large number of mouse and human TCRs have now been characterised, they have not been used to precisely quantitate discrimination. Here, we systematically quantify the discrimination of TCRs using a discrimination power (α). Early influential studies on three mouse TCRs suggested that discrimination was nearly perfect (α ~9.0). In striking contrast, our analysis of published data on other mouse and human TCRs, and more recent data on the original mouse TCRs, produced significantly lower discrimination (α = 2.0). Although not perfect, the discriminatory power of TCR was greater than that of conventional receptors such as cytokine receptors, GPCRs, RTKs, and CARs (α≤1). The revised discriminatory power of the TCR is readily explained by a kinetic proof-reading mechanisms, and accounts for the ability of low affinity self-antigens to stimulate autoimmune and anti-tumour T cell responses.	</p>
+	       <p><b>Abstract:</b> T cells use their T-cell receptors (TCRs) to discriminate between lower-affinity self and higher-affinity non-self pMHC antigens. The strength of this discrimination and the mechanisms that produce it remain controversial. Although a large number of mouse and human TCRs have now been characterised, they have not been used to precisely quantitate discrimination. Here, we systematically quantify the discrimination of TCRs using a discrimination power (α). Early influential studies on three mouse TCRs suggested that discrimination was nearly perfect (α ~9.0). In striking contrast, our analysis of published data on other mouse and human TCRs, and more recent data on the original mouse TCRs, produced significantly lower discrimination (α = 2.0). Although not perfect, the discriminatory power of TCR was greater than that of conventional receptors such as cytokine receptors, GPCRs, RTKs, and CARs (α≤1). The revised discriminatory power of the TCR is readily explained by a kinetic proof-reading mechanisms, and accounts for the ability of low affinity self-antigens to stimulate autoimmune and anti-tumour T cell responses.	</p>
 	      </div>
 	    </div>
 	  </div>
